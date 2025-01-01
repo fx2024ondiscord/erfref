@@ -145,7 +145,7 @@ if(time() - $_SESSION['timethree'] < 10 || !isset($_SESSION['timethree']))
 <div class="text-center">
     <form action="" method="POST" id="Captcha">
     <div class="g-recaptcha" data-callback="recaptchaCallback"
-    data-sitekey="6LdSgDAdAAAAALiS5DS8gdU-0WIovu5rNKmTLSHy" id="google"></div>
+    data-sitekey="6LcDfasqAAAAANiQHV7e3sZl8EiepXqqBPYU7Ent" id="google"></div>
     </form>
     </div>
     <p id="Notif"style="text-align: center;">Please check the recaptcha to get your key</p>
