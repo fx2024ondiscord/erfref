@@ -200,7 +200,7 @@ function recaptchaCallback() {
 <?php
 //CHECKING FOR THE CAPTCHA AND PERFORMING THE FUNCTIONS DEPENDING ON THE CASES
 if (isset($_POST['g-recaptcha-response'])){
-    $secret = '6LdSgDAdAAAAAKTZa5kqXtshkxSbsld-C-Bt4V9X';
+    $secret = '6LcDfasqAAAAAP1PMU38DqRJsBnDjaLncaEWtQKk';
     $response = $_POST['g-recaptcha-response'];
     $remoteip = $_SERVER['REMOTE_ADDR'];
     $url = 'https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $response . '&remoteip=' . $remoteip;
