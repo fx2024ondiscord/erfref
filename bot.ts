@@ -11,7 +11,7 @@ const client = new Client({
   ],
 });
 
-const VERCEL_API_URL = process.env.VERCEL_API_URL || 'https://your-vercel-api.vercel.app/api';
+const VERCEL_API_URL = process.env.VERCEL_API_URL || 'https://erfref.vercel.app/';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user?.tag}!`);
